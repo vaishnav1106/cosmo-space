@@ -47,7 +47,7 @@
   /* fonts */
   @font-face {
     font-family: 'Rubik Regular';
-    src: url("assets/fonts/Rubik-Regular.ttf") format("truetype");
+    src: url("assets/fonts/Rubik-Regular.ttf") format("ttf"),
   }
   h1,h2,h3,h4{
     color: #DDDBFF;
@@ -95,4 +95,16 @@
       font-size: 20px;
     }
   
+  }
+  
+  /* grid testing */
+  .projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .projects a{
+    text-align: center;
+    background: grey;
+    padding: 20px;
   }
